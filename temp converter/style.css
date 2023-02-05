@@ -1,0 +1,73 @@
+* {
+    /* margin: 0;
+    padding: 0; */
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+
+    display: grid;
+    place-items: center;
+    background-color: #e4cbdc;
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/temp1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.t {
+    /*width: 80%;*/
+    /* padding: 80px; */
+    text-align: center;
+    /* margin: 100px auto; */
+    background-color: #e7f1f492;
+    box-shadow: 0 10px 6px -6px #1a98a9;
+    -moz-box-shadow: 0 10px 6px -6px #1a98a9;
+    -webkit-box-shadow: 0 10px 6px -6px #1a98a9;
+    width: 600px;
+    height: 600px;
+    margin-right: 500px;
+    border-radius: 50%;
+
+}
+
+form {
+    padding-top: 180px;
+}
+
+#tempCalc label {
+    font-size: 27px;
+}
+
+#temp {
+    border: none;
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    font-style: 20px;
+    margin-top: 20px;
+}
+
+#temp_diff {
+    border: none;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 20px;
+    vertical-align: top;
+}
+
+[type="submit"] {
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    border: none;
+    color: white;
+    font-size: 15px;
+    background-color: black;
+}
+
+#resultContainer {
+    font-size: 35px;
+}
